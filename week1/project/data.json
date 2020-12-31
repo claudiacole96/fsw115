@@ -1,0 +1,99 @@
+{
+    "menu": [
+        {
+            "appetizers": [
+                {
+                    "name": "Cheese & Crackers",
+                    "ingredients": ["cheddar cheese", "crackers"],
+                    "description": "Sliced cheddar cheese with a side of crackers"
+                },
+                {
+                    "name": "Fried Potato Chips",
+                    "ingredients": ["potatoes"],
+                    "description": "Hand cut and fried potato chips"
+                },
+                {
+                    "name": "Fried Pickles",
+                    "ingredients": ["flour", "seasonings", "pickles"],
+                    "description": "Our secret recipe fried pickles, a great addition to the tuna club"
+                }
+            ]
+        },
+        {
+            "cold sandwiches": [
+                {
+                    "name": "Club Sandwich",
+                    "ingredients": ["turkey", "bacon", "mayonnaise", "american cheese", "lettuce", "tomato", "white bread"],
+                    "description": "Turkey, bacon, cheese, lettuce and tomato of white toast"
+                },
+                {
+                    "name": "Tuna Club",
+                    "ingredients": ["tuna", "lettuce", "tomato", "pickles", "mayonnaise", "whole wheat bread"],
+                    "description": "Tuna, lettuce, tomato, and pickles on whole wheat bread"
+                },
+                {
+                    "name": "House BLT",
+                    "ingredients": ["bacon", "lettuce", "tomato", "mayonnaise", "white bread"],
+                    "description": "Classic BLT on our toasted white bread"
+                }
+            ]
+        },
+        {
+            "hot sandwiches": [
+                {
+                    "name": "Meatball Marinara",
+                    "ingredients": ["meatball", "marinara sauce", "provologne cheese", "bell peppers", "italian bread"],
+                    "description": "Our sandwich comes with meatballs, topped with provologne cheese, bell peppers, toasted on italian bread"
+                },
+                {
+                    "name": "Panini",
+                    "ingredients": ["turkey", "tomato", "american cheese", "banana peppers", "texas toast"],
+                    "description": "A classic turkey panini topped with tomato, american cheese, banana peppers, on grilled texas toast"
+                },
+                {
+                    "name": "Grilled Cheese",
+                    "ingredients": ["cheddar cheese", "mozzarella cheese", "tomato", "bacon", "white bread"],
+                    "description": "Grilled on our white bread, cheddar and mozzarella cheese topped with tomato and bacon, just an adult's guilty pleasure sandwich"
+                }
+            ]
+        },
+        {
+            "desserts": [
+                {
+                    "name": "Soft Serve Ice Cream - Vanilla",
+                    "ingredients": ["milk", "vanilla extract", "sugar"],
+                    "description": "Great vanilla soft serve ice cream, goes great on our fudge brownies"
+                },
+                {
+                    "name": "Fudge Brownie",
+                    "ingredients": ["flour", "sugar", "butter", "eggs", "baking soda", "salt", "chocolate chips", "cocoa powder", "chocolate pudding"],
+                    "description": "Delicious fudgy brownies fresh out of the oven"
+                },
+                {
+                    "name": "Chocolate Chip Cookie",
+                    "ingredients": ["flour", "sugar", "butter", "vanilla extract", "baking soda", "salt", "chocolate chips"],
+                    "description": "Cookies made from scratch in our very kitchen"
+                }
+            ]
+        },
+        {
+            "drinks": [
+                {
+                    "name": "Coke",
+                    "ingredients": ["carbonated water", "high fructose corn syrup"],
+                    "description": "Delicious carbonated soda"
+                },
+                {
+                    "name": "Iced Tea",
+                    "ingredients": ["herbs", "water"],
+                    "description": "Freshly brewed and chilled iced tea"
+                },
+                {
+                    "name": "Coffee",
+                    "ingredients": ["grounded coffee beans", "water"],
+                    "description": "Medium Roast coffee brewed fresh for every cup"
+                }
+            ]
+        }
+    ]
+}
