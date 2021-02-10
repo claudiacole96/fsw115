@@ -109,11 +109,3 @@ const getTodoRequest = (address) => {
 }
 
 getTodoRequest(defaultTodoUrl);
-
-
-
-/* Notes
-
-function to edit todo
-
-*/
