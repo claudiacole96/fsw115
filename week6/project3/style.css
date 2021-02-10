@@ -1,0 +1,42 @@
+body {
+    width: 75%;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: purple;
+    color: white;
+}
+h1 {
+    text-align: center;
+    height: 100px;
+}
+h2 {
+    padding: 15px;
+    text-align: center;
+}
+li {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#characters {
+    background-color: black;
+    margin: 0;
+    padding: 25px;
+    border-radius: 15px 15px 0px 0px;
+}
+#locations {
+    background-color: navy;
+    margin: 0;
+    padding: 25px;
+}
+#episodes {
+    background-color: black;
+    margin: 0;
+    padding: 25px;
+    border-radius: 0px 0px 15px 15px;
+}
+h6 {
+    text-align: center;
+}
