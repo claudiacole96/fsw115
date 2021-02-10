@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/bea5aeebba.js" crossorigin="anonymous"></script>
+    <title>TODO LIST</title>
+</head>
+<body>
+    <div id="todoBox">
+        <header>
+            <h1>To-Do List</h1>
+        </header>
+        <main id="todoList">
+            <div id="formDiv">
+                <form id="addTodoForm">
+                    <input type="text" id="newTitle" name="title" placeholder="Item">
+                    <input type="text" id="newDescrip" name="description" placeholder="Description">
+                    <input type="number" id="newPrice" name="price" placeholder="Price" min=0>
+                    <button id="todoAdd" class="fas fa-plus"></button>
+                </form>
+            </div>
+            <div id="todoDiv"></div>
+            <div id="todoFooter">
+                <div id="taskbar"></div>
+                <button id="todoDeleteComplete">Remove Completed</button>
+            </div>
+        </main>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

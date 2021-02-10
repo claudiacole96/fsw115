@@ -1,0 +1,72 @@
+body {
+    background-color: skyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    border-bottom: 4px solid black;
+    padding-bottom: 20px;
+}
+#todoList > div {
+    padding-bottom: 15px;
+}
+#addTodoForm {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    height: 40px;
+    grid-gap: 10px;
+}
+#newTitle {
+    grid-column: 1/5;
+}
+#newDescrip {
+    grid-column: 5/11;
+}
+#newPrice {
+    grid-column: 11/14;
+}
+#todoAdd {
+    grid-column: 14/-1;
+    height: 100%;
+    width: 100%;
+}
+#addTodoForm > input {
+    height: 40px;
+    width: 100%;
+}
+.todos {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-gap: 10px;
+}
+.todoItem {
+    display: grid;
+    grid-column: 1/14;
+    grid-template-columns: repeat(13, 1fr);
+    grid-gap: 10px;
+}
+.title {
+    grid-column: 1/5;
+}
+.description {
+    grid-column: 5/11;
+}
+.price {
+    grid-column: 11/-1;
+}
+#todoBox {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    padding: 25px;
+}
+i {
+    padding: 5px;
+}
+i:hover, span:hover {
+    color: skyblue;
+}
+#todoAdd:hover, #todoDeleteComplete:hover {
+    background-color: skyblue;
+}
