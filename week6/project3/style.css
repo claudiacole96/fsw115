@@ -2,12 +2,14 @@ body {
     width: 75%;
     margin: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: purple;
+    background-color: darkturquoise;
     color: white;
 }
 h1 {
     text-align: center;
-    height: 100px;
+    height: 50px;
+    color: black;
+    margin-top: 50px;
 }
 h2 {
     padding: 15px;
