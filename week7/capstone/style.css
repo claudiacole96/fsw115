@@ -1,0 +1,79 @@
+body {
+    background-color:yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    border-bottom: 4px solid black;
+    padding-bottom: 20px;
+}
+#todoList > div {
+    padding-bottom: 15px;
+}
+#addTodoForm {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    height: 40px;
+    grid-gap: 10px;
+}
+#todoAdd {
+    grid-column: 14/-1;
+    height: 100%;
+    width: 100%;
+}
+#addTodoForm > input {
+    height: 40px;
+    width: 100%;
+}
+.todos {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-gap: 10px;
+}
+.todoItem {
+    display: grid;
+    grid-column: 1/14;
+    grid-template-columns: repeat(13, 1fr);
+    grid-gap: 10px;
+}
+#pokemon {
+    grid-column: 1/5;
+}
+#description {
+    grid-column: 5/12;
+}
+#price {
+    grid-column: 12/14;
+}
+.pokemon {
+    grid-column: 1/5;
+}
+.description {
+    grid-column: 5/12;
+}
+.price {
+    grid-column: 12/-1;
+}
+#todoBox {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    padding: 25px;
+}
+i {
+    padding: 5px;
+}
+i:hover, span:hover {
+    color: red;
+}
+#todoAdd:hover, #todoDeleteComplete:hover {
+    background-color:red;
+}
+#todoFooter {
+    display: flex;
+    justify-content: space-between;
+}
+h6 {
+    text-align: center;
+}

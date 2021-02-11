@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/bea5aeebba.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="todoBox">
+        <header>
+            <h1>Pokemon For Sale</h1>
+        </header>
+        <main id="todoList">
+            <div id="formDiv">
+                <form id="addTodoForm">
+                    <select name="pokemon" id="pokemon">
+                        <option value="">Pokemon</option>
+                    </select>
+                    <input type="text" name="description" id="description" placeholder="description">
+                    <input type="number" name="price" id="price" min="0" placeholder="price">
+                    <button id="todoAdd" class="fas fa-plus"></button>
+                </form>
+            </div>
+            <div id="todoDiv"></div>
+            <div id="todoFooter">
+                <div id="sold">
+                    <span>Pokemon Sold: </span>
+                    <span id="pokeSold">0</span>
+                </div>
+                <button id="todoDeleteComplete">Remove Sold</button>
+            </div>
+        </main>
+        <footer>
+            <h6>Wed Dev Student 2021</h6>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js" integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ==" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
